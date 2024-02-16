@@ -2,7 +2,7 @@
 ![LANPOD](https://raw.githubusercontent.com/jdsantos/laravel-alpine-nginx-phpfpm-opcache-docker/docs/banner.PNG)
 ============
 
-## LANPOD - Laravel + Alpine + NGINX + PHP-FPM + OPCache + Docker
+## LANPOD - Deployment recipe featuring: Laravel + Alpine + NGINX + PHP-FPM + OPCache + Docker
 
 This repository provides a recipe for deploying your Laravel 10 applications using Docker. The Docker setup includes Laravel 10, Alpine, Nginx, PHP-FPM, Supervisor and OPCache for optimized performance.
 
