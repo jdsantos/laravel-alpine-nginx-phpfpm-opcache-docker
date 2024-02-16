@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  laravel:
+    build: ./laravel
+    container_name: laravel
+    environment:
+      PHP_OPCACHE_ENABLE: 1
+      PRODUCTION: 1
+    ports:
+      - 8080:80
+    volumes:
+      - vendor-data:/opt/laravel/vendor
+      - storage-data:/opt/laravel/storage
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://laravel/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+volumes:
+  vendor-data:
+  storage-data:
