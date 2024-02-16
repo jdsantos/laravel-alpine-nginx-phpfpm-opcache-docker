@@ -1,5 +1,5 @@
 
-![LANPOD](https://raw.githubusercontent.com/jdsantos/laravel-alpine-nginx-phpfpm-opcache-docker/docs/banner.png)
+![LANPOD](https://raw.githubusercontent.com/jdsantos/laravel-alpine-nginx-phpfpm-opcache-docker/main/docs/banner.png)
 ============
 
 ## LANPOD - Deployment recipe featuring: Laravel + Alpine + NGINX + PHP-FPM + OPCache + Docker
