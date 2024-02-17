@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Set the base directory for the API
-BASEDIR=/opt/app
+BASEDIR=/opt/laravel
 
 # Flag to check if it's a fresh install
 FIRST_INSTALL=false
