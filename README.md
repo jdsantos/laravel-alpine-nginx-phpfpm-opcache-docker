@@ -6,6 +6,9 @@
 
 This repository provides a recipe for deploying your Laravel 10 applications using Docker. The Docker setup includes Laravel 10, Alpine, Nginx, PHP-FPM, Supervisor and OPCache for optimized performance.
 
+**💡 This recipe has now been promoted to a Laravel package that you can install right away!**
+Check it out at [jdsantos/laradocker](https://github.com/jdsantos/laradocker)
+
 ### Getting Started
 
 If you clone this repo, only Docker is required to be installed on your machine! Feel free to use and change in any way possible this template. Follow the steps below to set this up in your local environment and give it a try!
